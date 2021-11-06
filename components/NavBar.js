@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import styles from '../styles/NavBar.module.scss';
 const Navbar = () => (
 
@@ -13,12 +14,12 @@ const Navbar = () => (
 		</div>
   </label>
 
-  <ul className={styles.menu}>
-      <li><a href="/">Home</a></li>
-      <li><a href="#shengbook">Sheng HandBook</a></li>
-      <li><a href="#clips">Clips</a></li>
+    <ul className={styles.menu}>
+      <li><Link href="/"><a>Home</a></Link></li>
+      <li><Link href="/"><a>Home</a></Link></li>
+      <li><Link href="/"><a>Home</a></Link></li>
+      <li><Link href="/"><a>Home</a></Link></li>
       
-      <li><a href="/">Music</a></li>
       
   </ul>
 

@@ -4,6 +4,7 @@ import fetch from "isomorphic-fetch";
 
 import Head from 'next/head';
 import Link from "next/link";
+import Image from 'next/image'
 
 //data
 import { getAllPosts } from '../lib/api';
@@ -76,19 +77,34 @@ const Index = ({allPosts:{ edges } }) => (
     
       <div className={styles.grid}>
           <a href="https://nextjs.org/ds" className={styles.card}>
-          <img className={styles.clips_img}src="/dj1.jpg" alt="pic one"width={290} height={150}/>
+             <div className={styles.clips_img}><Image 
+      src="/dj1.jpg"
+      alt="Picture of the author"
+      width={290}
+      height={150}
+    /></div> 
             <h3> S1E2 | 03/10/20</h3>
             <p>Find grip &rarr; </p>
           </a>
 
           <a href="https://nextjs.org/ds" className={styles.card}>
-          <img className={styles.clips_img} src="/d.jpg" alt="pic one"width={290} height={150}/>
+            <div className={styles.clips_img} ><Image 
+      src="/d.jpg"
+      alt="Picture of the author"
+      width={290}
+      height={150}
+    /></div>
             <h3> S1E2 | 03/10/20</h3>
             <p>Find grip &rarr; </p>
           </a>
 
           <a href="https://nextjs.org/ds" className={styles.card}>
-          <img className={styles.clips_img} src="/e.jpg" alt="pic one"width={290} height={150}/>
+            <div className={styles.clips_img}><Image 
+      src="/e.jpg"
+      alt="Picture of the author"
+      width={290}
+      height={150}
+    /></div>
             <h3> S1E2 | 03/10/20</h3>
             <p>Find the joy &rarr; </p>
           </a>
