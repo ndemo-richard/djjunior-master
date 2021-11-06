@@ -117,9 +117,7 @@ const Index = ({allPosts:{ edges } }) => (
       <div className={styles.line}></div>
       <div className={styles.about_us}>
         <h1 className={styles.aboutus_h1}>About</h1>
-        <span className={styles.about_img}>
-        <img className={styles.img}src="/title.png" alt="title"/>
-        </span>
+        
         <p className={styles.about_content}>Lorem ipsum dolor sit amet,
          Lorem ipsum dolor sit amet. Qui dicta harum sit galisum dolores qui quidem omnis. Et omnis quod et totam asperiores sit quia atque et iure architecto sit corrupti recusandae. Nam doloribus consectetur sit quae facere cum quia deleniti? Qui laborum mollitia et eveniet exercitationem aut voluptatum quod rem fuga autem et minima laborum.
 
